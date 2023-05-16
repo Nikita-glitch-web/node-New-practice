@@ -7,14 +7,14 @@ const Product = sequelize.define('product', {
     type: Sequelize.INTEGER,
     autoIncrement: true,
     allowNull: false,
-    primarKey: true
+    primaryKey: true
   },
   title: Sequelize.STRING,
   price: {
     type: Sequelize.DOUBLE,
     allowNull: false
   },
-  ImageUrl: {
+  imageUrl: {
     type: Sequelize.STRING,
     allowNull: false
   },
